@@ -18,3 +18,9 @@ We apply MTCNN and GAN as our main algorithms, which could be found in our repor
 We show a brief demonstration of synthesis result here. You can also find image interpolation in our report.  
 ![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2023.00.19.png)  
 ##Authors
+Haotian Zhai  
+haotianzhai@link.cuhk.edu.cn  
+Xinyang Wang  
+xinyangwang@link.cuhk.edu.cn  
+Yuxin Guo  
+yuxinguo@link.cuhk.edu.cn  
