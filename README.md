@@ -12,6 +12,6 @@ The data set is retrieved from Kaggle, which contains information for 11,175 pai
 We also scatch the word cloud for our data containing relative information. 
 ![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2022.59.45.png)  
 ## Algorithms
-We apply MTCNN and GAN as our main algorithms, which could be found in our report. We take the image and resize it to different scales in order to build an image pyramid, which is the input of the three-staged cascaded network. Then we design the structure of GAN suitable for image synthesis. 
+We apply MTCNN and GAN as our main algorithms, which could be found in our report. We take the image and resize it to different scales in order to build an image pyramid, which is the input of the three-staged cascaded network. Then we design the structure of GAN suitable for image synthesis.  
 ![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2023.00.02.png)  
 
