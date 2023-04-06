@@ -8,6 +8,10 @@ Generative Adversarial Networks are a recently introduced method for training ge
 * Image interpolation is derived for latent points, where gradual changes from one image to another is visualized.
 ## Data Information
 The data set is retrieved from Kaggle, which contains information for 11,175 paintings of many famous painters like Monet, Picasso, Van Gogh, and so on. There are seven attributes in- cluding Painter Name, Painting Name, Year painted, Genre, Style, Link for the image and 5 colors extracted from the image using Adobe Color. Genre and style are characteristics of paintings, which are categorical variables. Genres of paintings are either portrait or landscape, among which 6223 are portraits and 4952 are landscapes. Style includes Impressionism, Neo-Impressionism, Post-Impressionism, Realism, Cloisonnism, and Japonism. 
-![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2022.59.16.png)
+![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2022.59.16.png)  
 We also scatch the word cloud for our data containing relative information. 
-![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2022.59.45.png)
+![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2022.59.45.png)  
+## Algorithms
+We apply MTCNN and GAN as our main algorithms, which could be found in our report. We take the image and resize it to different scales in order to build an image pyramid, which is the input of the three-staged cascaded network. Then we design the structure of GAN suitable for image synthesis. 
+![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2023.00.02.png)  
+
