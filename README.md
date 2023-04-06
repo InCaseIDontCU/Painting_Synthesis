@@ -14,4 +14,7 @@ We also scatch the word cloud for our data containing relative information.
 ## Algorithms
 We apply MTCNN and GAN as our main algorithms, which could be found in our report. We take the image and resize it to different scales in order to build an image pyramid, which is the input of the three-staged cascaded network. Then we design the structure of GAN suitable for image synthesis.  
 ![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2023.00.02.png)  
-
+## Results
+We show a brief demonstration of synthesis result here. You can also find image interpolation in our report.  
+![pic](https://github.com/InCaseIDontCU/Painting_Synthesis/blob/main/截屏2023-04-06%2023.00.19.png)  
+##Authors
